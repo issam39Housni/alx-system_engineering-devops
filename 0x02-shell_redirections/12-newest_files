@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt --time-style=long-iso | awk 'NR > 1 {print $8}' | head -n 10
